@@ -26,6 +26,9 @@ void Door::closeDoor(){
 void Door::isDoorOpen() {
     return isOpen;
 }
+void Door::isDoorLocked() {
+    return isLocked;
+}
 
 
 int main()
