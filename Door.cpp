@@ -20,7 +20,9 @@ bool isDoorLocked();
 void Door::openDoor(){
 	 isOpen=true;
 }
-
+void Door::closeDoor(){
+ 	isOpen=false;
+}
 
 
 int main()
