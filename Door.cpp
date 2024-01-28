@@ -23,6 +23,9 @@ void Door::openDoor(){
 void Door::closeDoor(){
  	isOpen=false;
 }
+void Door::isDoorOpen() {
+    return isOpen;
+}
 
 
 int main()
